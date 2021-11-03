@@ -12,7 +12,9 @@
     <modules>
         <module>common</module>
         <module>client-lib</module>
+        <module>client</module>
         <module>server-lib</module>
+        <module>server</module>
     </modules>
 
     <properties>
