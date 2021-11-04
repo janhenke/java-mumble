@@ -4,22 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>java-mumble-parent</artifactId>
-        <groupId>de.taujhe.java-mumble</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+		<groupId>de.taujhe.java-mumble</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-mumble-server-lib</artifactId>
+	<artifactId>java-mumble-server-lib</artifactId>
 
-    <properties>
-    </properties>
+	<properties>
+	</properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>de.taujhe.java-mumble</groupId>
-            <artifactId>java-mumble-common</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-    </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>de.taujhe.java-mumble</groupId>
+			<artifactId>java-mumble-common</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+	</dependencies>
 
 </project>
