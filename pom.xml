@@ -23,6 +23,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<protobuf.version>3.19.1</protobuf.version>
 		<lombok.version>1.18.22</lombok.version>
+		<slf4j.version>1.7.32</slf4j.version>
 	</properties>
 
 	<build>
@@ -56,6 +57,15 @@
 			<version>${lombok.version}</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<!-- SLF4J -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+
+		<!-- Testing -->
 		<!-- JUnit 5 -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -67,7 +77,7 @@
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.18.1</version>
+			<version>3.21.0</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- Mockito -->
